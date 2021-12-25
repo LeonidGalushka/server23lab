@@ -1,0 +1,10 @@
+CREATE TABLE my_db3.lab2 (
+  id int NOT NULL AUTO_INCREMENT,
+  idUser int NOT NULL,
+  last_event varchar(100) NOT NULL,
+  speed varchar(100) NOT NULL,
+  time_ varchar(100) NOT NULL,
+  PRIMARY KEY (id)
+);
+
+drop table my_db3.lab2;

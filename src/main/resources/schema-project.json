@@ -1,0 +1,17 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "enum":["1", "2"]
+    },
+    "event": {
+      "type": "string"
+    },
+    "v_0": {
+      "type": "string"
+    }
+  },
+  "required": ["id", "event", "v_0"]
+}
